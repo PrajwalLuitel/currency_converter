@@ -26,8 +26,12 @@ def get_conversion(from_currency, to_currency, amount):
     	"X-RapidAPI-Host": "currency-exchange.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers, params=querystring)
+    
+    try:
+        return float(response.json())*amount
+    except Exception as e :
+        return e
 
-    return response.json()*amount
 
 
 def display_converted_amount(from_currency, to_currency,amount,label):
