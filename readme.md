@@ -7,15 +7,18 @@ The dependencies for this tool are:
 
 1. dotenv
 You can install it by running the following command:
-pip install python-dotenv
 
-2. tkinter
-You can install it by running the following command:
-pip install tk
+  pip install python-dotenv
 
-3. requests
+3. tkinter
 You can install it by running the following command:
-pip install requests
+
+  pip install tk
+
+5. requests
+You can install it by running the following command:
+
+  pip install requests
 
 
 Install those, Clone the repo, Run the program and enjoy !!
