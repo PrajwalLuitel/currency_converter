@@ -1,5 +1,8 @@
 This is a simple currency converted in python3.11.5 visualised with tkinter library.
 
+
+You may simply run the installer.py file in order to install all the dependencies.
+
 The dependencies for this tool are:
 
 1. dotenv
@@ -8,7 +11,7 @@ pip install python-dotenv
 
 2. tkinter
 You can install it by running the following command:
-pip install tkinter
+pip install tk
 
 3. requests
 You can install it by running the following command:
